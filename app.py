@@ -12,6 +12,7 @@ app.config['DEBUG'] = True  # Включаем режим отладки
 # Настройка логирования
 logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
+
 # Определение базового пути для шаблонов PDF
 if os.environ.get('PYTHONANYWHERE_DOMAIN'):
     # Мы на PythonAnywhere
