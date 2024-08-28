@@ -1,0 +1,417 @@
+
+
+<!-- ФОРМА СУПРУГА/СУПРУГИ! -->
+
+        <!-- Поля для ввода данных -->
+                <!-- тип визы -->
+        <div class="col-md-8">
+            <label for="optionSelect" class="form-label">Выберите тип визы</label>
+            <select class="form-control" id="VisaTypeSelectSpouse" name="VisaTypeSelectSpouse">
+                <option value="Option1">1 - RESIDENCIA FUERA DE ESPAÑA A FECHA DE LA SOLICITUD</option>
+                <option value="Option2">2 - TITULAR DE AUTORIZACIÓN DE ESTANCIA EN ESPAÑA</option>
+                <option value="Option3">3 - TITULAR DE AUTORIZACIÓN DE RESIDENCIA EN ESPAÑA</option>
+            </select>
+        </div>
+        <br/>
+
+        <!-- Паспорт, NIE, ID квитанции -->
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">Номера документов</h5>
+                <div class="col-md-4">
+                    <label for="passport" class="form-label">Паспорт</label>
+                    <input type="text" class="form-control" id="passportSpouse" name="passportSpouse">
+                </div><!-- Паспорт -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-2">
+                    <label for="fullName" class="form-label">NIE. Первая буква</label>
+                    <input type="text" class="form-control" id="NIE1Spouse" name="NIE1Spouse" >
+                </div><!-- NIE1 -->
+                <div class="col-md-2">
+                    <label for="fullName" class="form-label">NIE. Только цифры</label>
+                    <input type="text" class="form-control" id="NIE2Spouse" name="NIE2Spouse" >
+                </div><!-- NIE2 -->
+                <div class="col-md-2">
+                    <label for="fullName" class="form-label">NIE. Последняя буква</label>
+                    <input type="text" class="form-control" id="NIE3Spouse" name="NIE3Spouse" >
+                </div><!-- NIE3 -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-4">
+                    <label for="country" class="form-label">Номер квитанции об оплате пошлины</label>
+                    <input type="text" class="form-control " id="numRefCompSpouse" name="numRefCompSpouse">
+                </div><!-- ID пошлины -->
+             </div>
+        </div>
+        <br/>
+
+        <!-- Имя, Фамилия, Пол, Семейное положение -->
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">Общая информация</h5>
+                <div class="col-md-4">
+                    <label for="fullNameSpouse" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="fullNameSpouse" name="fullNameSpouse" >
+                </div><!-- Имя -->
+                <div class="col-md-4">
+                    <label for="fullName" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" id="fullSurnameSpouse" name="fullSurnameSpouse" >
+                </div><!-- Фамилия -->
+                <div class="col-md-1">
+                    <label for="NavesSelect" class="form-label">Обращение</label>
+                    <select class="form-control" id="NavesSelectSpouse" name="NavesSelectSpouse">
+                        <option value="Sr">Sr</option>
+                        <option value="Sra">Sra</option>
+                    </select>
+                </div><!-- Обращение -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-4">
+                    <label for="optionSelect2" class="form-label">Выберите пол</label>
+                    <select class="form-control" id="GenderSelectSpouse" name="GenderSelectSpouse">
+                        <option value="Option1">Hombre - Мужской</option>
+                        <option value="Option2">Mujer - Женский</option>
+                    </select>
+                </div><!-- Выбор пола -->
+                <div class="col-md-4">
+                    <label for="optionSelect" class="form-label">Выберите семейное положение</label>
+                    <select class="form-control" id="FamilyStatusSelectSpouse" name="FamilyStatusSelectSpouse">
+                        <option value="Option1">Soltero - Свободный</option>
+                        <option value="Option2">Casado - В браке</option>
+                        <option value="Option3">Viudo - Вдовец</option>
+                        <option value="Option4">Divorciado - Разведен</option>
+                        <option value="Option5">Separado - Живут отдельно</option>
+                        <option value="Option6">Unión de hecho - гражданский брак</option>
+                    </select>
+                </div><!-- Выбор семейного положения -->
+
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+
+                <div class="col-md-8">
+                    <label for="optionSelect" class="form-label">Семейное отношение к основному апликанту</label>
+                    <select class="form-control" id="FamilyRelationSelectSpouse" name="FamilyRelationSelectSpouse">
+                        <option value="Option1">Супруг/Супруга (Conyuage)</option>
+                        <option value="Option2">Сожитеть/Партнер (Pareja)</option>
+                <!--    <option value="Option3">Ребенок менее 18 лет</option>  -->
+                <!--    <option value="Option4">Зависимый ребенок от 18 лет</option> -->
+                        <option value="Option5">Ascendiente a cargo</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <br/>
+
+        <!-- Страна и Город рождения -->
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">Все про рождение и родителей</h5>
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Страна рождения</label>
+                    <input type="text" class="form-control" id="birthCountrySpouse" name="birthCountrySpouse">
+                </div><!-- Страна рождения -->
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Город рождения</label>
+                    <input type="text" class="form-control" id="cityOriginalSpouse" name="cityOriginalSpouse" >
+                </div><!-- Город рождения -->
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Национальность</label>
+                    <input type="text" class="form-control" id="NacinalidadSpouse" name="NacinalidadSpouse">
+                </div><!-- Национальность -->
+                <!-- Дата рождения -->
+               <label for="fullName" class="form-label">Дата рождения:</label>
+               <div class="col-md-3 mt-1">
+                    <label for="fullName" class="form-label">Число</label>
+                    <input type="text" class="form-control" id="birthDaySpouse" name="birthDaySpouse" >
+                </div>
+               <div class="col-md-3 mt-1">
+                    <label for="fullName" class="form-label">Месяц</label>
+                    <input type="text" class="form-control" id="birthMonthSpouse" name="birthMonthSpouse" >
+                </div>
+               <div class="col-md-3 mt-1">
+                    <label for="fullName" class="form-label">Год</label>
+                    <input type="text" class="form-control" id="birthYearSpouse" name="birthYearSpouse" >
+                </div>
+               <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Имя мамы</label>
+                    <input type="text" class="form-control" id="nameMamaSpouse" name="nameMamaSpouse">
+                </div><!-- Имена мамы -->
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Имя папы</label>
+                    <input type="text" class="form-control" id="namePapaSpouse" name="namePapaSpouse">
+                </div><!-- Имена папы -->
+            </div>
+        </div>
+        <br/>
+
+       <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">
+                    Адрес в Испании
+                    <a href="#" class="btn btn-outline-primary btn-sm" onclick="copyFromMainApplicantAdressData(); return false;">Копировать у основного</a>
+                </h5>
+                <script>
+                    function copyFromMainApplicantAdressData() {
+                        // Получение данных из формы основного аппликанта
+                        var mainAdress = document.getElementById('adressStreet').value;
+                        var mainBuilding = document.getElementById('adressBuilding').value;
+                        var mainFlat = document.getElementById('adressFlat').value;
+                        var mainCity = document.getElementById('citySpain').value;
+
+                        var mainIndex = document.getElementById('indexSpain').value;
+                        var mainProvince = document.getElementById('provinciaSpain').value;
+                        var mainPhone = document.getElementById('telephonSpain').value;
+                        var mainEmail = document.getElementById('email').value;
+
+                        // Установка данных в поля формы супруга/супруги
+                        document.getElementById('adressStreetSpouse').value = mainAdress;
+                        document.getElementById('adressBuildingSpouse').value = mainBuilding;
+                        document.getElementById('adressFlatSpouse').value = mainFlat;
+                        document.getElementById('citySpainSpouse').value = mainCity;
+                        document.getElementById('indexSpainSpouse').value = mainIndex;
+                        document.getElementById('provinciaSpainSpouse').value = mainProvince;
+                        document.getElementById('telephonSpainSpouse').value = mainPhone;
+                        document.getElementById('emailSpouse').value = mainEmail;
+                    }
+                </script>
+                <!-- Адрес в Испании -->
+                <label for="AdressSpain" class="form-label">Адрес в Испании</label>
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Улица</label>
+                    <input type="text" class="form-control" id="adressStreetSpouse" name="adressStreetSpouse" >
+                </div>
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Дом</label>
+                    <input type="text" class="form-control" id="adressBuildingSpouse" name="adressBuildingSpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="fullName" class="form-label">Квартира</label>
+                    <input type="text" class="form-control" id="adressFlatSpouse" name="adressFlatSpouse">
+                </div>
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-3">
+                    <label for="country" class="form-label mt-2">Город</label>
+                    <input type="text" class="form-control " id="citySpainSpouse" name="citySpainSpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="country" class="form-label mt-2">Индекс</label>
+                    <input type="text" class="form-control " id="indexSpainSpouse" name="indexSpainSpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="country" class="form-label mt-2">Провинция</label>
+                    <input type="text" class="form-control " id="provinciaSpainSpouse" name="provinciaSpainSpouse">
+                </div>
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <!-- Телефон и емейл -->
+                <div class="col-md-5">
+                    <label for="country" class="form-label mt-2">Телефон</label>
+                    <input type="text" class="form-control " id="telephonSpainSpouse" name="telephonSpainSpouse">
+                </div>
+                <div class="col-md-5">
+                    <label for="country" class="form-label mt-2">Email</label>
+                    <input type="text" class="form-control " id="emailSpouse" name="emailSpouse">
+                </div>
+            </div>
+        </div>
+        <br/>
+
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">
+                    Город и дата подачи
+                    <a href="#" class="btn btn-outline-primary btn-sm" onclick="copyFromMainApplicantApplicationData(); return false;">Копировать у основного</a>
+
+                    <script>
+                        function copyFromMainApplicantApplicationData() {
+                            // Получение данных из формы основного аппликанта
+                            var mainCity = document.getElementById('applyCity').value;
+                            var mainDay = document.getElementById('applyDay').value;
+                            var mainMonth = document.getElementById('applyMonth').value;
+                            var mainYear = document.getElementById('applyYear').value;
+
+                            // Установка данных в поля формы супруга/супруги
+                            document.getElementById('applyCitySpouse').value = mainCity;
+                            document.getElementById('applyDaySpouse').value = mainDay;
+                            document.getElementById('applyMonthSpouse').value = mainMonth;
+                            document.getElementById('applyYearSpouse').value = mainYear;
+                        }
+                    </script>
+                </h5>
+                <div class="col-md-4">
+                    <label for="applyCity" class="form-label">Город подачи</label>
+                    <input type="text" class="form-control" id="applyCitySpouse" name="applyCitySpouse">
+                </div><!-- Город -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-4">
+                    <label for="submissionCity" class="form-label">День подачи</label>
+                    <input type="text" class="form-control" id="applyDaySpouse" name="applyDaySpouse">
+                </div><!-- Число подачи -->
+                <div class="col-md-4">
+                    <label for="submissionCity" class="form-label">Месяц подачи</label>
+                    <input type="text" class="form-control" id="applyMonthSpouse" name="applyMonthSpouse">
+                </div><!-- Месяц подачи -->
+                <div class="col-md-4">
+                    <label for="submissionCity" class="form-label">Год подачи</label>
+                    <input type="text" class="form-control" id="applyYearSpouse" name="applyYearSpouse">
+                </div><!-- Год подачи -->
+            </div>
+        </div>
+        <br/>
+
+        <!-- Въезд в страну -->
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">
+                    Въезд в страну
+                    <a href="#" class="btn btn-outline-primary btn-sm" onclick="copyFromMainApplicantComingData(); return false;">Копировать у основного</a>
+                </h5>
+                    <script>
+                        function copyFromMainApplicantComingData() {
+                            // Получение данных из формы основного аппликанта
+                            var mainCity = document.getElementById('comingFrom').value;
+                            var mainDay = document.getElementById('comingDay').value;
+                            var mainMonth = document.getElementById('comingMonth').value;
+                            var mainYear = document.getElementById('comingYear').value;
+
+                            // Установка данных в поля формы супруга/супруги
+                            document.getElementById('comingFromSpouse').value = mainCity;
+                            document.getElementById('comingDaySpouse').value = mainDay;
+                            document.getElementById('comingMonthSpouse').value = mainMonth;
+                            document.getElementById('comingYearSpouse').value = mainYear;
+                        }
+                    </script>
+                <div class="col-md-4">
+                    <label for="comingFrom" class="form-label">Из какой страны</label>
+                    <input type="text" class="form-control" id="comingFromSpouse" name="comingFromSpouse">
+                </div>
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-3">
+                    <label for="submissionCity" class="form-label">День въезда</label>
+                    <input type="text" class="form-control" id="comingDaySpouse" name="comingDaySpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="submissionCity" class="form-label">Месяц въезда</label>
+                    <input type="text" class="form-control" id="comingMonthSpouse" name="comingMonthSpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="submissionCity" class="form-label">Год въезда</label>
+                    <input type="text" class="form-control" id="comingYearSpouse" name="comingYearSpouse">
+                </div>
+            </div>
+        </div>
+        <br/>
+
+        <!-- Данные основного апликанта Паспорт, NIE, ID квитанции -->
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">
+                    Данные основного аппликанта
+                    <a href="#" class="btn btn-outline-primary btn-sm" onclick="copyFromMainApplicantSomeData(); return false;">Копировать у основного</a>
+                </h5>
+                <script>
+                        function copyFromMainApplicantSomeData() {
+                            // Получение данных из формы основного аппликанта
+                            var mainApplicantName = document.getElementById('fullName').value;
+                            var mainApplicantSurname = document.getElementById('fullSurname').value;
+                            var mainApplicantPassport = document.getElementById('passport').value;
+                            var mainApplicantNIE1 = document.getElementById('NIE1').value;
+                            var mainApplicantNIE2 = document.getElementById('NIE2').value;
+                            var mainApplicantNIE3 = document.getElementById('NIE3').value;
+
+                            // Установка данных в поля формы супруга/супруги
+                            document.getElementById('mainApplicantNameSpouse').value = mainApplicantName;
+                            document.getElementById('mainApplicantSurnameSpouse').value = mainApplicantSurname;
+                            document.getElementById('mainApplicantPassportSpouse').value = mainApplicantPassport;
+                            document.getElementById('mainApplicantNIE1Spouse').value = mainApplicantNIE1;
+                            document.getElementById('mainApplicantNIE2Spouse').value = mainApplicantNIE2;
+                            document.getElementById('mainApplicantNIE3Spouse').value = mainApplicantNIE3;
+                        }
+                </script>
+                <div class="col-md-4">
+                    <label for="fullNameSpouse" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="mainApplicantNameSpouse" name="mainApplicantNameSpouse" >
+                </div><!-- Имя -->
+                <div class="col-md-4">
+                    <label for="fullName" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" id="mainApplicantSurnameSpouse" name="mainApplicantSurnameSpouse" >
+                </div><!-- Фамилия -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-4">
+                    <label for="passport" class="form-label">Паспорт</label>
+                    <input type="text" class="form-control" id="mainApplicantPassportSpouse" name="mainApplicantPassportSpouse">
+                </div><!-- Паспорт -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-2">
+                    <label for="fullName" class="form-label">NIE. Первая буква</label>
+                    <input type="text" class="form-control" id="mainApplicantNIE1Spouse" name="mainApplicantNIE1Spouse" >
+                </div><!-- NIE1 -->
+                <div class="col-md-2">
+                    <label for="fullName" class="form-label">NIE. Только цифры</label>
+                    <input type="text" class="form-control" id="mainApplicantNIE2Spouse" name="mainApplicantNIE2Spouse" >
+                </div><!-- NIE2 -->
+                <div class="col-md-2">
+                    <label for="fullName" class="form-label">NIE. Последняя буква</label>
+                    <input type="text" class="form-control" id="mainApplicantNIE3Spouse" name="mainApplicantNIE3Spouse" >
+                </div><!-- NIE3 -->
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-4">
+                    <label for="country" class="form-label">Номер заявки основного апликанта</label>
+                    <input type="text" class="form-control " id="mainApplicantMumRegSilicitudSpouse" name="mainApplicantMumRegSilicitudSpouse">
+                </div><!-- ID пошлины -->
+             </div>
+        </div>
+        <br/>
+
+        <!-- Декларация о въезде -->
+        <div class="card">
+            <div class="card-body row g-3">
+                <h5 class="card-title">
+                    Декларация о въезде
+                    <a href="#" class="btn btn-outline-primary btn-sm" onclick="copyFromMainApplicantEntradaData(); return false;">Копировать у основного</a>
+                </h5>
+                <script>
+                    function copyFromMainApplicantEntradaData() {
+                        // Получение данных из формы основного аппликанта
+                        var mainCity = document.getElementById('entradaCity').value;
+                        var mainDay = document.getElementById('entradaDay').value;
+                        var mainMonth = document.getElementById('entradaMonth').value;
+                        var mainYear = document.getElementById('entradaYear').value;
+
+                        // Установка данных в поля формы супруга/супруги
+                        document.getElementById('entradaCitySpouse').value = mainCity;
+                        document.getElementById('entradaDaySpouse').value = mainDay;
+                        document.getElementById('entradaMonthSpouse').value = mainMonth;
+                        document.getElementById('entradaYearSpouse').value = mainYear;
+                    }
+                </script>
+
+                <div class="col-md-4">
+                    <label for="entradaCity" class="form-label">Город получения декларации о въезде</label>
+                    <input type="text" class="form-control" id="entradaCitySpouse" name="entradaCitySpouse">
+                </div>
+                <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+                <div class="col-md-3">
+                    <label for="submissionCity" class="form-label">День получения декларации о въезде</label>
+                    <input type="text" class="form-control" id="entradaDaySpouse" name="entradaDaySpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="submissionCity" class="form-label">Месяц получения декларации о въезде</label>
+                    <input type="text" class="form-control" id="entradaMonthSpouse" name="entradaMonthSpouse">
+                </div>
+                <div class="col-md-3">
+                    <label for="submissionCity" class="form-label">Год получения декларации о въезде</label>
+                    <input type="text" class="form-control" id="entradaYearSpouse" name="entradaYearSpouse">
+                </div>
+            </div>
+        </div>
+        <br/>
+
+
+        <!-- Кнопки для генерации различных PDF документов, одна под другой -->
+        <div class="col-12 mt-4">
+            <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="Declaration of no criminal record Spouse">Declaration of no criminal record Spouse</button>
+            <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="DESIGNACION DE REPRESENTANTE Spouse">DESIGNACION DE REPRESENTANTE Spouse</button>
+            <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="DECLARACION DE ENTRADA Spouse">DECLARACION DE ENTRADA Spouse</button>
+            <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="MI-F Spouse">MI-F Spouse</button>
+            <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="DECLARACION DE MANTENIMIENTO Spouse">DECLARACION DE MANTENIMIENTO Spouse</button>
+
+        </div>

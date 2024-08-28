@@ -1,0 +1,499 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:46:45] "[31m[1mGET / HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:46:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:46:51] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /home/AntonSh/mysite/static/formTemplates/Declaration of no criminal record.pdf
+ERROR:root:Файл не найден: /home/AntonSh/mysite/static/formTemplates/Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:46:53] "[33mPOST /generate HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:48:00] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:48:02] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:48:04] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-T
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 27 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: static/formTemplates/MI-T.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-T.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 01:48:05] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:00:38] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:00:44] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:10:06] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:10:28] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:10:31] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:16:32] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:16:45] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:16:47] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE ENTRADA Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Spouse', 'NIE2Spouse', 'NIE3Spouse']: ['', '', '']
+DEBUG:root:Сформировано 28 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE ENTRADA Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DECLARACION DE ENTRADA Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:27:28] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 34 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:28:32] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullNameSpouse', 'fullSurnameSpouse']: ['', '']
+DEBUG:root:Значения для ['adressStreetSpouse', 'adressBuildingSpouse', 'adressFlatSpouse']: ['', '', '']
+DEBUG:root:Значения для ['citySpainSpouse', 'provinciaSpainSpouse']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:31:29] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:31:43] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:58:45] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:58:48] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:58:50] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:58:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:58:51] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullNameSpouse', 'fullSurnameSpouse']: ['', '']
+DEBUG:root:Значения для ['adressStreetSpouse', 'adressBuildingSpouse', 'adressFlatSpouse']: ['', '', '']
+DEBUG:root:Значения для ['citySpainSpouse', 'provinciaSpainSpouse']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:58:58] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DESIGNACION DE REPRESENTANTE Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Spouse', 'NIE2Spouse', 'NIE3Spouse']: ['', '', '']
+DEBUG:root:Сформировано 24 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DESIGNACION DE REPRESENTANTE Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DESIGNACION DE REPRESENTANTE Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:59:11] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DESIGNACION DE REPRESENTANTE Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Spouse', 'NIE2Spouse', 'NIE3Spouse']: ['', '', '']
+DEBUG:root:Сформировано 24 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DESIGNACION DE REPRESENTANTE Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DESIGNACION DE REPRESENTANTE Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2024 17:59:26] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2024 11:51:53] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:46:28] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2024 11:28:46] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:58:56] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:01] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullName', 'fullSurname']: ['', '']
+DEBUG:root:Значения для ['adressStreet', 'adressBuilding', 'adressFlat']: ['', '', '']
+DEBUG:root:Значения для ['citySpain', 'provinciaSpain']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _Declaration of no criminal record.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:21] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-T
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 27 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-T.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-T.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:26] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DESIGNACION DE REPRESENTANTE
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1', 'NIE2', 'NIE3']: ['', '', '']
+DEBUG:root:Сформировано 24 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DESIGNACION DE REPRESENTANTE.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DESIGNACION DE REPRESENTANTE.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:35] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: RETA
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NavesSelect', 'fullName', 'fullSurname']: ['Sr', '', '']
+DEBUG:root:Значения для ['NavesSelect', 'fullName', 'fullSurname', 'applyCity', 'applyDay', 'applyMonth', 'applyYear']: ['Sr', '', '', '', '', '', '']
+DEBUG:root:Сформировано 2 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/RETA.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _RETA.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:44] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE ENTRADA
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1', 'NIE2', 'NIE3']: ['', '', '']
+DEBUG:root:Сформировано 28 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE ENTRADA.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DECLARACION DE ENTRADA.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 11:59:45] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE MANTENIMIENTO Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1', 'NIE2', 'NIE3']: ['', '', '']
+DEBUG:root:Значения для ['fullNameSpouse', 'fullSurnameSpouse']: ['', '']
+DEBUG:root:Сформировано 25 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE MANTENIMIENTO Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: Anton_DECLARACION DE MANTENIMIENTO Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 12:36:51] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 12:44:28] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: Declaration of no criminal record Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['fullNameChild', 'fullSurnameChild']: ['Gnom', 'Gnomich']
+DEBUG:root:Значения для ['adressStreetChild', 'adressBuildingChild', 'adressFlatChild']: ['', '', '']
+DEBUG:root:Значения для ['citySpainChild', 'provinciaSpainChild']: ['', '']
+DEBUG:root:Сформировано 9 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/Declaration of no criminal record Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: Anton_Declaration of no criminal record Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 12:45:09] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Spouse
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 34 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Spouse.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: Anton_MI-F Spouse.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 12:48:20] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 34 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: Anton_MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 12:49:59] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 34 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: Anton_MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 12:50:18] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:16:16] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Сформировано 36 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:17:19] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['surNameChildRep', 'NameChildRep']: ['ShatokhinRep', '']
+DEBUG:root:Сформировано 36 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:19:37] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['ShatokhinRep', 'AntonRep']
+DEBUG:root:Сформировано 36 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:20:50] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:22:00] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['ShatokhinRep2', 'AntonRep2']
+DEBUG:root:Сформировано 36 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:22:14] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:31:31] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:31:55] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:33:10] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['BatyaSur', 'Batya1']
+DEBUG:root:Сформировано 36 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:33:58] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE ENTRADA Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Child', 'NIE2Child', 'NIE3Child']: ['', '', '']
+DEBUG:root:Сформировано 28 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE ENTRADA Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DECLARACION DE ENTRADA Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:34:39] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE ENTRADA Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Child', 'NIE2Child', 'NIE3Child']: ['', '', '']
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['BatyaSur', 'Batya1']
+DEBUG:root:Сформировано 31 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE ENTRADA Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DECLARACION DE ENTRADA Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:41:30] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE ENTRADA Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Child', 'NIE2Child', 'NIE3Child']: ['', '', '']
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['BatyaSur', 'Batya1']
+DEBUG:root:Сформировано 31 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE ENTRADA Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DECLARACION DE ENTRADA Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:42:06] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:42:12] "GET /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: DECLARACION DE ENTRADA Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['NIE1Child', 'NIE2Child', 'NIE3Child']: ['', '', '']
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['Shatokhin', 'Anton']
+DEBUG:root:Сформировано 31 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/DECLARACION DE ENTRADA Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _DECLARACION DE ENTRADA Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:42:45] "POST /generate HTTP/1.1" 200 -
+DEBUG:root:Начало генерации документа
+DEBUG:root:Выбранный шаблон: MI-F Child
+DEBUG:root:Получены детали шаблона
+DEBUG:root:Значения для ['surNameChildRep', 'nameChildRep']: ['Shatokhin', 'Anton']
+DEBUG:root:Сформировано 36 текстовых элементов
+DEBUG:root:Путь к шаблону PDF: /Users/antonshatokhin/PycharmProjects/flaskFormfiller/static/formTemplates/MI-F Child.pdf
+DEBUG:root:PDF успешно создан
+DEBUG:root:Отправка файла пользователю: _MI-F Child.pdf
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 13:42:55] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Aug/2024 14:37:28] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 534-031-222
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 00:31:24] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 00:31:26] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 00:31:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 534-031-222
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:46:42] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2024 13:46:43] "[31m[1mGET /generate HTTP/1.1[0m" 401 -

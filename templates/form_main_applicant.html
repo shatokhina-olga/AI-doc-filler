@@ -1,0 +1,374 @@
+<!-- ОСНОВНОЙ АППЛИКАНТ! -->
+
+<!-- тип визы -->
+<div class="col-md-8">
+    <label for="optionSelect" class="form-label">
+        Текущий статус нахождения в Испании
+        <span data-bs-toggle="tooltip" title="ESTANCIA - если въехали по шенгену/ВНЖ другой страны, живете в Испании по студенческой визе. RESIDENCIA - если живете в Испании по другому типу резиденции (не студенческой). FUERA - если подаетесь за пределами Испании.">
+            <i class="bi bi-question-circle"></i>
+        </span>
+    </label>
+    <select class="form-control" id="VisaTypeSelect" name="VisaTypeSelect">
+        <option value="Option1">1 - RESIDENCIA FUERA DE ESPAÑA A FECHA DE LA SOLICITUD</option>
+        <option value="Option2">2 - TITULAR DE AUTORIZACIÓN DE ESTANCIA EN ESPАÑA</option>
+        <option value="Option3">3 - TITULAR DE AUTORIZАЦИЯ ДЛЯ ПРЕБЫВАНИЯ В ИСПАНИИ</option>
+    </select>
+</div>
+<br/>
+
+<!-- Паспорт, NIE, ID квитанции -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Номера документов</h5>
+        <div class="col-md-4">
+            <label for="passport" class="form-label">
+                Паспорт
+                <span data-bs-toggle="tooltip" title="без пробелов">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="passport" name="passport">
+        </div><!-- Паспорт -->
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-2">
+            <label for="NIE1" class="form-label">
+                NIE.Первая буква
+                <span data-bs-toggle="tooltip" title="заполняется, если NIE уже есть">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="NIE1" name="NIE1">
+        </div><!-- NIE1 -->
+        <div class="col-md-2">
+            <label for="NIE2" class="form-label">
+                NIE.Только цифры
+                <span data-bs-toggle="tooltip" title="заполняется, если NIE уже есть">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="NIE2" name="NIE2">
+        </div><!-- NIE2 -->
+        <div class="col-md-2">
+            <label for="NIE3" class="form-label">
+                NIE.Буква в конце
+                <span data-bs-toggle="tooltip" title="заполняется, если NIE уже есть">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="NIE3" name="NIE3">
+        </div><!-- NIE3 -->
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-4">
+            <label for="numRefComp" class="form-label">
+                Номер квитанции об оплате пошлины
+                <span data-bs-toggle="tooltip" title="номер NRC на чеке оплаты пошлины">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="numRefComp" name="numRefComp">
+        </div><!-- ID пошлины -->
+    </div>
+</div>
+<br/>
+
+<!-- Имя, Фамилия, Пол, Семейное положение -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Общая информация</h5>
+        <div class="col-md-4">
+            <label for="fullName" class="form-label">
+                Имя
+                <span data-bs-toggle="tooltip" title="латиницей как в загранпаспорте">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="fullName" name="fullName">
+        </div><!-- Имя -->
+        <div class="col-md-4">
+            <label for="fullSurname" class="form-label">
+                Фамилия
+                <span data-bs-toggle="tooltip" title="латиницей как в загранпаспорте">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="fullSurname" name="fullSurname">
+        </div><!-- Фамилия -->
+        <div class="col-md-2">
+            <label for="NavesSelect" class="form-label">
+                Обращение
+                <span data-bs-toggle="tooltip" title="Sr - для мужчин, Sra - для женщин">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <select class="form-control" id="NavesSelect" name="NavesSelect">
+                <option value="Sr">Sr</option>
+                <option value="Sra">Sra</option>
+            </select>
+        </div><!-- Обращение -->
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-4">
+            <label for="GenderSelect" class="form-label">Выберите пол</label>
+            <select class="form-control" id="GenderSelect" name="GenderSelect">
+                <option value="Option1">Hombre - Мужской</option>
+                <option value="Option2">Mujer - Женский</option>
+            </select>
+        </div><!-- Выбор пола -->
+        <div class="col-md-4">
+            <label for="FamilyStatusSelect" class="form-label">Выберите семейное положение</label>
+            <select class="form-control" id="FamilyStatusSelect" name="FamilyStatusSelect">
+                <option value="Option1">Soltero - Свободный</option>
+                <option value="Option2">Casado - В браке</option>
+                <option value="Option3">Viudo - Вдовец</option>
+                <option value="Option4">Divorciado - Разведен</option>
+                <option value="Option5">Separado - Живут отдельно</option>
+                <option value="Option6">Unión de hecho - гражданский брак</option>
+            </select>
+        </div><!-- Выбор семейного положения -->
+    </div>
+</div>
+<br/>
+
+<!-- Страна и Город рождения -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Все про рождение и родителей</h5>
+        <div class="col-md-3">
+            <label for="birthCountry" class="form-label">
+                Страна рождения
+                <span data-bs-toggle="tooltip" title="на испанском языке">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="birthCountry" name="birthCountry">
+        </div><!-- Страна рождения -->
+        <div class="col-md-3">
+            <label for="cityOriginal" class="form-label">
+                Город рождения
+                <span data-bs-toggle="tooltip" title="на испанском языке. Нужно написать либо город рождения, либо как в загранпаспорте (например Мурманская область: Región de Murmansk)">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="cityOriginal" name="cityOriginal">
+        </div><!-- Город рождения -->
+        <div class="col-md-3">
+            <label for="Nacinalidad" class="form-label">Страна гражданства</label>
+            <input type="text" class="form-control" id="Nacinalidad" name="Nacinalidad">
+        </div><!-- Национальность -->
+        <!-- Дата рождения -->
+        <label for="birthDate" class="form-label">Дата рождения:</label>
+        <div class="col-md-3 mt-1">
+            <label for="birthDay" class="form-label">
+                Число
+                <span data-bs-toggle="tooltip" title="формат ДД">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="birthDay" name="birthDay">
+        </div>
+        <div class="col-md-3 mt-1">
+            <label for="birthMonth" class="form-label">
+                Месяц
+                <span data-bs-toggle="tooltip" title="формат ММ">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="birthMonth" name="birthMonth">
+        </div>
+        <div class="col-md-3 mt-1">
+            <label for="birthYear" class="form-label">
+                Год
+                <span data-bs-toggle="tooltip" title="формат ГГГГ">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="birthYear" name="birthYear">
+        </div>
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-3">
+            <label for="nameMama" class="form-label">
+                Имя мамы
+                <span data-bs-toggle="tooltip" title="только имя, латиницей">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="nameMama" name="nameMama">
+        </div><!-- Имя мамы -->
+        <div class="col-md-3">
+            <label for="namePapa" class="form-label">
+                Имя папы
+                <span data-bs-toggle="tooltip" title="только имя, латиницей">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="namePapa" name="namePapa">
+        </div><!-- Имя папы -->
+    </div>
+</div>
+<br/>
+
+<!-- Адрес в Испании -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Адрес в Испании</h5>
+        <label for="AdressSpain" class="form-label">Адрес в Испании</label>
+        <div class="col-md-3">
+            <label for="adressStreet" class="form-label">Улица</label>
+            <input type="text" class="form-control" id="adressStreet" name="adressStreet">
+        </div>
+        <div class="col-md-3">
+            <label for="adressBuilding" class="form-label">Дом</label>
+            <input type="text" class="form-control" id="adressBuilding" name="adressBuilding">
+        </div>
+        <div class="col-md-3">
+            <label for="adressFlat" class="form-label">Квартира</label>
+            <input type="text" class="form-control" id="adressFlat" name="adressFlat">
+        </div>
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-3 mt-2">
+            <label for="citySpain" class="form-label">Город</label>
+            <input type="text" class="form-control" id="citySpain" name="citySpain">
+        </div>
+        <div class="col-md-3 mt-2">
+            <label for="indexSpain" class="form-label">Индекс</label>
+            <input type="text" class="form-control" id="indexSpain" name="indexSpain">
+        </div>
+        <div class="col-md-3 mt-2">
+            <label for="provinciaSpain" class="form-label">Провинция</label>
+            <input type="text" class="form-control" id="provinciaSpain" name="provinciaSpain">
+        </div>
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-5 mt-2">
+            <label for="telephonSpain" class="form-label">Телефон</label>
+            <input type="text" class="form-control" id="telephonSpain" name="telephonSpain">
+        </div>
+        <div class="col-md-5 mt-2">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" name="email">
+        </div>
+    </div>
+</div>
+<br/>
+
+<!-- Город и дата подачи -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Город и дата подачи</h5>
+        <div class="col-md-4">
+            <label for="applyCity" class="form-label">
+                Город подачи
+                <span data-bs-toggle="tooltip" title="Совпадает с 'Адресом в Испании'">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="applyCity" name="applyCity">
+        </div><!-- Город подачи -->
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-4">
+            <label for="applyDay" class="form-label">День подачи</label>
+            <input type="text" class="form-control" id="applyDay" name="applyDay">
+        </div><!-- День подачи -->
+        <div class="col-md-4">
+            <label for="applyMonth" class="form-label">
+                Месяц подачи
+                <span data-bs-toggle="tooltip" title="По испански (напр. junio)">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="applyMonth" name="applyMonth">
+        </div><!-- Месяц подачи -->
+        <div class="col-md-4">
+            <label for="applyYear" class="form-label">Год подачи</label>
+            <input type="text" class="form-control" id="applyYear" name="applyYear">
+        </div><!-- Год подачи -->
+    </div>
+</div>
+<br/>
+
+<!-- Въезд в страну -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Въезд в Испанию</h5>
+        <div class="col-md-4">
+            <label for="comingFrom" class="form-label">
+                Из какой страны шенгена влетаете в Испанию
+                <span data-bs-toggle="tooltip" title="Заполняется только если вам нужна декларация о въезде">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="comingFrom" name="comingFrom">
+        </div>
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-3">
+            <label for="comingDay" class="form-label">День въезда</label>
+            <input type="text" class="form-control" id="comingDay" name="comingDay">
+        </div>
+        <div class="col-md-3">
+            <label for="comingMonth" class="form-label">
+                Месяц въезда
+                <span data-bs-toggle="tooltip" title="По испански (напр. junio)">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="comingMonth" name="comingMonth">
+        </div>
+        <div class="col-md-3">
+            <label for="comingYear" class="form-label">Год въезда</label>
+            <input type="text" class="form-control" id="comingYear" name="comingYear">
+        </div>
+    </div>
+</div>
+<br/>
+
+<!-- Декларация о въезде -->
+<div class="card">
+    <div class="card-body row g-3">
+        <h5 class="card-title">Декларация о въезде</h5>
+        <div class="col-md-4">
+            <label for="entradaCity" class="form-label">Город получения декларации о въезде</label>
+            <input type="text" class="form-control" id="entradaCity" name="entradaCity">
+        </div>
+        <div class="w-100"></div> <!-- Этот элемент создает разрыв строки -->
+        <div class="col-md-3">
+            <label for="entradaDay" class="form-label">День получения декларации о въезде</label>
+            <input type="text" class="form-control" id="entradaDay" name="entradaDay">
+        </div>
+        <div class="col-md-3">
+            <label for="entradaMonth" class="form-label">
+                Месяц получения
+                <span data-bs-toggle="tooltip" title="По испански (напр. junio)">
+                    <i class="bi bi-question-circle"></i>
+                </span>
+            </label>
+            <input type="text" class="form-control" id="entradaMonth" name="entradaMonth">
+        </div>
+        <div class="col-md-3">
+            <label for="entradaYear" class="form-label">Год получения</label>
+            <input type="text" class="form-control" id="entradaYear" name="entradaYear">
+        </div>
+    </div>
+</div>
+<br/>
+
+<!-- Кнопки для генерации различных PDF документов, одна под другой -->
+<div class="col-12 mt-4">
+    <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="Declaration of no criminal record">Declaration of no criminal record</button>
+    <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="MI-T">MI-T</button>
+    <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="DESIGNACION DE REPRESENTANTE">DESIGNACION DE REPRESENTANTE</button>
+    <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="DECLARACION DE ENTRADA">DECLARACION DE ENTRADA</button>
+    <button type="submit" class="btn btn-primary mb-3 w-100" name="template" value="RETA">RETA</button>
+    <button type="submit" class="btn btn-primary w-100" name="template" value="Autonomo">Autonomo</button>
+</div>
+
+<!-- Bootstrap JavaScript и зависимости -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl, {
+                customClass: 'custom-tooltip'
+            })
+        })
+    });
+</script>
